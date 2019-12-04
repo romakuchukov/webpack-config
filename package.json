@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "json2mq": "latest",
     "webpack": "latest",
     "webpack-cli": "latest",
     "webpack-dev-server": "latest"

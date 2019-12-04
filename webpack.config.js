@@ -43,7 +43,11 @@ const config = {
     // Ignore node_modules so CPU usage with poll
     // watching drops significantly.
     new webpack.WatchIgnorePlugin([path.join(__dirname, 'node_modules')]),
-    new webpack.ProvidePlugin({ util: ['util', 'default'] }),
+    new webpack.ProvidePlugin({
+      util: ['util', 'default'],
+      // to avoid using imports
+      json2mq: 'json2mq',
+    }),
   ],
 };
 
