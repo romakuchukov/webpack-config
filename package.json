@@ -1,19 +1,19 @@
 {
-  "name": "int-hacks",
+  "name": "webpack-config",
   "version": "0.0.1",
-  "description": "Int Hacks",
+  "description": "Webpack config template.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js",
     "build": "webpack --mode production",
     "test": "echo \"no test script defined\" "
   },
-  "author": "Roma",
+  "author": "Roma Kuchukov",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
   }
 }
