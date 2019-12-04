@@ -17,13 +17,13 @@ const config = {
       util: path.resolve(__dirname, './src/plugins/util'),
     }
   },
-  // module:{
-  //   rules:[{
-  //     test:/\.(s*)css$/,
-  //     use:['style-loader', 'css-loader','sass-loader'],
-  //     exclude: /node_modules/,
-  //   }]
-  // },
+  module:{
+    rules:[{
+      // test:/\.(s*)css$/,
+      // use:['style-loader', 'css-loader','sass-loader'],
+      exclude: /node_modules/,
+    }]
+  },
   devServer: {
     //contentBase: './public',
     hot: true,
